@@ -1,0 +1,28 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+.tarja {
+    position: absolute;
+    left: -100px;
+    top: 40px;
+    background-color: rgb(10, 29, 114);
+    transform: rotate(-45deg);
+    height: 65px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgb(68, 68, 68);
+}
+a{
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(247, 245, 243);
+    font-size: 20px;
+    border-top: 1.5px white solid;
+    border-bottom: 1.5px white solid;
+    width: 350px;
+    text-shadow: 0px 0px 30px white;
+}

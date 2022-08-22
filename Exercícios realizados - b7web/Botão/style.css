@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.botao {
+    text-decoration: none;
+    border: 1px rgb(15, 9, 1) solid;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-image: linear-gradient(to bottom, rgb(2, 0, 129), rgb(70, 68, 199));
+    font-size: 30px;
+    color: rgb(223, 223, 223);
+    box-shadow: 0px 0px 17px rgba(65, 65, 65, 0.589); 
+}
+.botao:hover {
+    background-image: linear-gradient(to bottom, rgba(2, 0, 129, 0.377), rgb(70, 68, 199));
+}

@@ -1,0 +1,67 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: #33658a;
+    color: #ffe7dc;
+}
+
+/*Cabeçalho*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerHead {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logoTwice img {
+    max-height: 150px;
+}
+
+/*menu*/
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px #2f4858 solid;
+    padding: 10px;
+}
+nav li {
+    border-bottom: 3px rgba(229, 34, 255, 0) solid;
+
+}
+li a {
+    text-decoration: none;
+    color: #ffe7dc;
+}
+nav li:hover {
+    border-bottom: 3px #2f4858 solid;
+}
+.item img {
+    max-width: 200px;
+}
+
+.containerItems {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 3px #2f4858 solid;
+}
+
+.containerItems div {
+    margin: 20px auto;
+    margin-top: ;
+    padding: 20px;
+    border: #2f4858 1px solid;
+}
+.containerItems button {
+    font-weight: 600;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: #b4babe;
+    border-radius: 5px;
+}

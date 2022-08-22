@@ -1,0 +1,41 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    background: url(mapa.jfif);
+    background-size: cover;
+}
+.titform {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(135, 206, 235, 0.8);
+    border-radius: 10px;
+}
+.Form {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+label {
+    padding: 5px;
+    display: block;
+    justify-items: center;
+}
+.containterForm {
+    padding: 20px;
+    width: 40vw;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#enviar {
+    margin: 10px;
+}
+footer {
+    display: block;
+    font-size: 12px;
+    text-align: end;
+}

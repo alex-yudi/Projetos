@@ -1,0 +1,96 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cabeçalho Google */
+.head {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.topo {
+    font-size: 13.5px;
+    margin-left: 13px;
+}
+.gmail:hover, .imagens:hover {
+    text-decoration: underline;
+}
+.opcoes {
+    padding: 14px;
+    display: flex;
+}
+.opcoes:hover {
+    background-color: rgba(175, 175, 175, 0.493);
+    border-radius: 30px;
+    display: flex;
+
+}
+.logoOpcoes {
+    height: 18px;
+}
+
+.perfil {
+    height: 37px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* Pesquisa Google */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    min-width: 80px;
+    min-height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px rgba(143, 143, 143, 0.616) solid;
+    border-radius: 30px;
+}
+.search:hover {
+        box-shadow: 1px 1px 20px rgba(99, 98, 98, 0.356);
+}
+.lupa {
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 4px;
+    margin: 10px;
+}
+.input {
+    height: 30px;
+    min-width: 400px;
+    font-size: 18px;
+    border: 0px white none;
+    outline: 0;
+}
+.mic {
+    margin: 10px;
+    height: 30px;
+    padding-right: 8px;
+}
+.teclado {
+    margin: 10px;
+}
+
+/* Rodapé Google */
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 10;
+    text-decoration: none;
+}
+.footer {
+    text-decoration: none;
+}

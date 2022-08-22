@@ -1,0 +1,52 @@
+html {
+    background-color: azure;
+    margin: 0px;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.containerMother {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "titulo titulo titulo titulo titulo"
+        "photo photo photo photo photo"
+        "textBio textBio textBio textBio textBio"
+        ". . . footText footText"
+    ;
+}
+.titulo {
+    grid-area: titulo;
+    padding: 5px;
+    margin-bottom: 10px;
+    max-width: 250px;
+    max-height: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.photo {
+    grid-area: photo;
+    border-bottom: 0.5px solid black ;
+    border-radius: 60px ;
+}
+.photo img {
+    max-height: 400px;
+}
+
+.textBio {
+    grid-area: textBio;
+    text-align: center;
+}
+p {
+    padding: 2px;
+}
+
+.footText {
+    grid-area: footText;
+    font-size: smaller;
+}
