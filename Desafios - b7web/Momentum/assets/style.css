@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center;
 
 /*fonte*/
     font-family: Helvetica, Arial, sans-serif;
@@ -40,9 +41,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    transition: all ease .2s;
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
     height: 100px;
+    font-size: 15px;
+
 }
 
 #autor {
@@ -53,4 +55,13 @@ footer{
 
 footer:hover #autor {
     height: 20px;
+}
+
+@media (max-width: 600px) {
+    #horas {
+        font-size: 70px;
+    }
+    #saudacao {
+        font-size: 35px;
+    }
 }
