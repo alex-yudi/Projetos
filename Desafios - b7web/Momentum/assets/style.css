@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/*background com a imagem*/
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+/*centralização das informações*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+/*fonte*/
+    font-family: Helvetica, Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 0px 0px 12px rgb(88, 88, 88);
+}
+
+#horas {
+    margin-top:-40px;
+    font-size: 120px;
+}
+
+#saudacao {
+    font-size: 70px;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease .2s;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+#autor {
+    overflow: hidden;
+    height: 0px;
+    transition: all ease .2s;
+}
+
+footer:hover #autor {
+    height: 20px;
+}
