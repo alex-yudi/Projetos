@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    background-color: rgb(102, 102, 102);
+}
+
+/* Formato do cabeçalho */
+.container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo, header a {
+    color: white;
+}
+.logo {
+    font-family: 'Moon Dance', cursive;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
+header li{
+    list-style: none;
+    padding-left: 10px;
+}
+header a {
+    text-decoration: none;
+}
+header a:hover {
+    border-bottom: 2px white solid;
+}
+
+/* Banner inicial */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    max-height: 300px;
+}
+
+/* Lista dos itens */
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin:auto;
+    color: white;
+}
+main section {
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+main .ContainerList {
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(255, 255, 255) solid;
+}
+.nome {
+    padding-top: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.posters {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.ContainerList img {
+    margin: 10px;
+    max-height: 300px;
+    border: 1px black solid;
+}
+.posters div {
+    width: auto;
+}
