@@ -7,5 +7,4 @@
   * Uso de HTML semântico
 * Css, com utilização de flexbox e algumas adaptações para uma melhor responsividade, para evitar o uso de medias queries
 
-
-!()["/site.gif"]
+<img src='/site.gif' align='center'>
