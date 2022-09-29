@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*Criação do topo da página*/
+body {
+    background-color: #2196f3;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: #002973;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header img {
+    display: block;
+    height: 60px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.container-img {
+    height: 450px;
+    background-image: url("/assets/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-container {
+    background-color: #b4b6b89f;
+    color: #001741;
+    text-decoration: solid;
+    font-size: 30px;
+    position: relative;
+    height: 80px;
+    top: 370px;
+    text-align: center;
+}
+
+.title-container p {
+    margin: 20px;
+}
+
+/*Criação do corpo do texto*/
+p {
+    display: inline-block;
+    margin: 10px 75px;
+}
+
+.text {
+    padding: 10px;
+    text-align: justify;
+}
+
+/*Criação do botão para voltar para topo da página*/
+.btn-return {
+    position: fixed;
+    height: auto;
+    width: auto;
+    bottom: 10px;
+    right: 5px;
+}
+
+.btn-return img {
+    height: 50px;
+}
+
+
+/*Criação do menu lateral para as redes sociais*/
+.menu-bar {
+    background-color: #81c9fa;
+    position: fixed;
+    top: 200px;
+    left: -55px;
+    padding: 0;
+    height: 250px;
+    width: 80px;
+    border-radius: 0 15% 15% 0;
+    z-index: 1;
+}
+
+.menu-bar:hover {
+    left: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 25px 15px;
+    border-radius: 100%;
+}
+
+ul li:hover {
+    background-color: #04365e3b;
+}
+
+.menu-bar img {
+    display: block;
+    height: 50px;
+}
