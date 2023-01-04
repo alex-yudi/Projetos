@@ -29,7 +29,7 @@ header img {
 
 .container-img {
     height: 450px;
-    background-image: url("/assets/background.gif");
+    background-image: url("./assets/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -58,6 +58,8 @@ p {
 .text {
     padding: 10px;
     text-align: justify;
+
+    line-height: 20px;
 }
 
 /*Criação do botão para voltar para topo da página*/
