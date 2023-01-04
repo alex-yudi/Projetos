@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+}
+
+a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+ul {
+    list-style: none;
+}
+
+.public-sans-regular {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.ibarra-real-regular {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.ibarra-real-bold {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+}
+
+.text-h1 {
+    font-size: 50px;
+}
+
+.text-h2 {
+    font-size: 40px;
+}
+
+.text-h3 {
+    font-size: 32px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-16 {
+    font-size: 16px;
+    line-height: 30px;
+
+    opacity: 0.8
+}
+
+
+
+.text-btn {
+    font-size: 14px;
+}
+
+.color-green {
+    color: #5FB4A2;
+}
+
+.color-gray {
+    color: #797880;
+}

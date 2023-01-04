@@ -1,0 +1,9 @@
+.porfolio-info {
+    margin: 80px 0;
+}
+
+.image-porfolio-info,
+.image-porfolio-info img {
+    max-width: 500px;
+    height: 540px;
+}

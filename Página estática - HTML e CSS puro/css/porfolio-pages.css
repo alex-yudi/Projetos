@@ -1,0 +1,61 @@
+.container-description {
+    width: 100%;
+    height: 800px;
+}
+
+.porfolio-info {
+    margin: 80px 0;
+}
+
+.project-info {
+    max-width: 500px;
+    height: 540px;
+}
+
+.project-info a {
+    text-decoration: underline;
+}
+
+.project-info h3 {
+    margin: 20px 0;
+}
+
+.details-project {
+    height: 25%;
+    width: 100%;
+}
+
+
+.project-images {
+    width: 100%;
+    height: 100%;
+}
+
+.project-images img {
+    display: inline-block;
+
+    width: 100%;
+    margin: 10px 0;
+}
+
+.links {
+    width: 100%;
+    height: 132px;
+    margin-top: 450px;
+}
+
+.links img {
+    margin: 10px;
+}
+
+.links a {
+    display: block;
+
+    width: 162px;
+    height: 66px;
+
+}
+
+.links a p {
+    margin-top: 5px;
+}

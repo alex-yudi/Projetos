@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    padding: 64px 165px;
+
+    background-color: #FAFAFA;
+    color: #33323D;
+}
+
+.menu-top {
+    width: 100%;
+    height: 40px;
+
+    padding-bottom: 54px;
+}
+
+.logo-img {
+    width: 60px;
+    height: 32px;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-top li {
+    margin-left: 30px;
+}
+
+.menu-top-links a:hover {
+    color: #5FB4A2;
+}
+
+.hero-section {
+    width: 100%;
+    height: 600px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    margin: 150px 0px;
+}
+
+.description-project-aside,
+.container-about-me,
+.container-info {
+    width: 430px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description-project-aside,
+.container-about-me p,
+.container-info p {
+    width: 430px;
+}
+
+.container-about-me:before,
+.container-info:before {
+    content: "";
+    position: relative;
+    top: -30px;
+
+    width: 430px;
+    height: 1px;
+
+    background-color: #c5c5c56e;
+}
+
+
+.container-about-me:after,
+.container-info:after {
+    content: "";
+    position: relative;
+    bottom: -30px;
+
+    width: 430px;
+    height: 1px;
+
+    background-color: #c5c5c56e;
+}
+
+
+.contact {
+    width: 100%;
+    margin: 75px 0;
+}
+
+.contact-text {
+    width: 367px;
+    height: 84px;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+
+    width: 100%;
+    height: 80px;
+    padding: 0 165px;
+
+    color: #FAFAFA;
+    background-color: #33323D;
+}
+
+.menu-footer-links a {
+    color: #FAFAFA;
+}
+
+footer li,
+footer a {
+    margin-left: 30px;
+}
+
+.menu-footer-links a:hover {
+    color: #5FB4A2;
+}
+
+
+
+.description-project-aside:before {
+    content: "";
+    position: relative;
+
+    width: 430px;
+    height: 1px;
+
+    background-color: #c5c5c56e;
+}
+
+
+.description-project-aside:after {
+    content: "";
+    position: relative;
+
+    width: 430px;
+    height: 1px;
+
+    background-color: #c5c5c56e;
+}

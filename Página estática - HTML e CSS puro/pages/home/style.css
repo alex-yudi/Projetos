@@ -1,0 +1,28 @@
+.hero-img {
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+}
+
+.hero-about-me {
+    position: relative;
+    top: 243px;
+
+    width: 445px;
+    height: 357px;
+
+    background-color: #FAFAFA;
+}
+
+.hero-about-me h1 {
+    margin: 53px 27px;
+}
+
+.hero-about-me a {
+    position: relative;
+    bottom: 25px;
+}
+
+.image-homepage-profile,
+.image-homepage-profile img {
+    width: 540px;
+    height: 600px;
+}
